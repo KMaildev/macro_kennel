@@ -77,27 +77,28 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">
-                                DOG
+                            <a class="nav-link" href="#">
+                                DOGS
                             </a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">
-                                KENNELS
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a class="nav-link" href="about-us.html">
+                            <a class="nav-link" href="#">
                                 PEDIGREE
                             </a>
                         </li>
 
 
                         <li class="nav-item">
-                            <a class="nav-link" href="contact.html">
+                            <a class="nav-link" href="{{ route('review.index') }}">
+                                REVIEWS
+                            </a>
+                        </li>
+
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('term.index') }}">
                                 TERMS AND CONDITIONS
                             </a>
                         </li>
